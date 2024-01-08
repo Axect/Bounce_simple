@@ -1,0 +1,4 @@
+/target
+*.parquet
+.venv/
+*/**/.ipynb_checkpoints/
