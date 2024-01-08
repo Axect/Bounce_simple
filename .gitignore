@@ -2,3 +2,5 @@
 *.parquet
 .venv/
 */**/.ipynb_checkpoints/
+ml/lightning_logs/
+ml/wandb/

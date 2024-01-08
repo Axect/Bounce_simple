@@ -9,16 +9,15 @@ df = pd.read_parquet('sho.parquet')
 # Prepare Data to Plot
 omega = np.array(df['omega'][:])
 a     = np.array(df['a'][:])
-xp    = np.array(df['xp'][:])
 s     = np.array(df['s'][:])
 
 vs    = []
-for i in range(10):
+for i in range(16):
     vs.append(np.array(df[f'v{i}'][:]))
 
 vs = np.array(vs).transpose()
 
-x = np.linspace(0, 1, 10)
+x = np.linspace(0, 1, 16)
 
 # Plot params
 pparam = dict(
