@@ -16,4 +16,5 @@ dependencies = [
     "pandas ==2.1.4",
     "pyarrow ==14.0.2",
     "wandb ==0.16.1",
+    "deepxde",
 ]

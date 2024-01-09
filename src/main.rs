@@ -1,7 +1,7 @@
 use peroxide::fuga::*;
 use std::f64::consts::PI;
 
-const N: usize = 1000;
+const N: usize = 10000;
 
 fn main() {
     let x = linspace(0, 1, 16);
